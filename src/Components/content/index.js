@@ -1,7 +1,5 @@
-// import { ButtonGroupItemModel } from "survey-core";
-
-export const json = {
-    title: "Your Mental Health",
+export const questions = {
+    title: "",
     showProgressBar: "bottom",
     goNextPageAutomatic: true,
     allowCompleteSurveyAutomatic: false,
@@ -14,6 +12,11 @@ export const json = {
   // "maxTimeToFinish": 25,
   // "firstPageIsStarted": true,
   // "startSurveyText": "Start Quiz",
+  // focusFirstQuestionAutomatic: false,
+  // "questionsOnPageMode": "singlePage",
+  // "mode": "display",
+
+
     pages: [
       {
         "elements": [
@@ -26,8 +29,9 @@ export const json = {
             "rateMax": 10,
             "minRateDescription": "(Does not apply)",
             "maxRateDescription": "(It applies)"
-          }
-        ]
+          },
+
+        ],
       }, {
         "elements": [
           {
